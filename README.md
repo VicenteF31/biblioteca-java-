@@ -1,12 +1,12 @@
-﻿# Sistema de GestÃ£o de Biblioteca
+﻿# Sistema de Gestão de Biblioteca
 
-## 1. DescriÃ§Ã£o do Projeto
+## 1. Descrição do Projeto
 
-O Sistema de GestÃ£o de Biblioteca Ã© uma aplicaÃ§Ã£o desenvolvida em linguagem Java para auxiliar no gerenciamento de livros, utilizadores e emprÃ©stimos de uma biblioteca municipal.
+O Sistema de Gestão de Biblioteca é uma aplicação desenvolvida em linguagem Java para auxiliar no gerenciamento de livros, utilizadores e empréstimos de uma biblioteca municipal.
 
-O sistema funciona atravÃ©s de uma interface de consola e utiliza estruturas de dados em memÃ³ria, nomeadamente arrays, para armazenar e manipular as informaÃ§Ãµes durante a execuÃ§Ã£o do programa.
+O sistema funciona através de uma interface de consola e utiliza estruturas de dados em memória, nomeadamente arrays, para armazenar e manipular as informações durante a execução do programa.
 
-A aplicaÃ§Ã£o permite registar livros, consultar o catÃ¡logo, pesquisar livros, registar utilizadores, realizar emprÃ©stimos e devoluÃ§Ãµes, consultar o histÃ³rico de emprÃ©stimos e visualizar estatÃ­sticas do sistema.
+A aplicação permite registar livros, consultar o catálogo, pesquisar livros, registar utilizadores, realizar empréstimos e devoluções, consultar o histórico de empréstimos e visualizar estatísticas do sistema.
 
 ---
 
@@ -14,18 +14,18 @@ A aplicaÃ§Ã£o permite registar livros, consultar o catÃ¡logo, pesquisar li
 
 ### Objetivo Geral
 
-Desenvolver um sistema informÃ¡tico simples, baseado em consola, capaz de automatizar o gerenciamento do inventÃ¡rio de livros e das operaÃ§Ãµes de emprÃ©stimo e devoluÃ§Ã£o de uma biblioteca.
+Desenvolver um sistema informático simples, baseado em consola, capaz de automatizar o gerenciamento do inventário de livros e das operações de empréstimo e devolução de uma biblioteca.
 
-### Objetivos EspecÃ­ficos
+### Objetivos Específicos
 
-* Registar livros com identificador, tÃ­tulo, autor, ano de publicaÃ§Ã£o e quantidade disponÃ­vel;
-* Consultar o catÃ¡logo de livros;
-* Pesquisar livros por tÃ­tulo ou autor;
+* Registar livros com identificador, título, autor, ano de publicação e quantidade disponível;
+* Consultar o catálogo de livros;
+* Pesquisar livros por título ou autor;
 * Registar utilizadores da biblioteca;
-* Realizar emprÃ©stimos de livros;
-* Registar a devoluÃ§Ã£o de livros;
-* Manter o histÃ³rico dos emprÃ©stimos realizados;
-* Apresentar estatÃ­sticas sobre os emprÃ©stimos;
+* Realizar empréstimos de livros;
+* Registar a devolução de livros;
+* Manter o histórico dos empréstimos realizados;
+* Apresentar estatísticas sobre os empréstimos;
 * Controlar a disponibilidade dos exemplares;
 * Validar os dados introduzidos pelo utilizador.
 
@@ -35,75 +35,75 @@ Desenvolver um sistema informÃ¡tico simples, baseado em consola, capaz de auto
 
 O sistema disponibiliza as seguintes funcionalidades:
 
-1. **Registar Livro**
+### 3.1 Registar Livro
 
-   * InserÃ§Ã£o do ID do livro;
-   * TÃ­tulo;
-   * Autor;
-   * Ano de publicaÃ§Ã£o;
-   * Quantidade disponÃ­vel;
-   * ValidaÃ§Ã£o de IDs duplicados.
+* Inserção do ID do livro;
+* Título;
+* Autor;
+* Ano de publicação;
+* Quantidade disponível;
+* Validação de IDs duplicados.
 
-2. **Consultar CatÃ¡logo**
+### 3.2 Consultar Catálogo
 
-   * ApresentaÃ§Ã£o dos livros registados;
-   * VisualizaÃ§Ã£o da quantidade disponÃ­vel;
-   * VisualizaÃ§Ã£o do total de emprÃ©stimos de cada livro.
+* Apresentação dos livros registados;
+* Visualização da quantidade disponível;
+* Visualização do total de empréstimos de cada livro.
 
-3. **Pesquisar Livro**
+### 3.3 Pesquisar Livro
 
-   * Pesquisa por tÃ­tulo;
-   * Pesquisa por autor.
+* Pesquisa por título;
+* Pesquisa por autor.
 
-4. **Registar Utilizador**
+### 3.4 Registar Utilizador
 
-   * Registo do ID;
-   * Registo do nome;
-   * ValidaÃ§Ã£o de IDs duplicados.
+* Registo do ID;
+* Registo do nome;
+* Validação de IDs duplicados.
 
-5. **Listar Utilizadores**
+### 3.5 Listar Utilizadores
 
-   * ApresentaÃ§Ã£o dos utilizadores registados.
+* Apresentação dos utilizadores registados.
 
-6. **Efetuar EmprÃ©stimo**
+### 3.6 Efetuar Empréstimo
 
-   * VerificaÃ§Ã£o da existÃªncia do livro;
-   * VerificaÃ§Ã£o da existÃªncia do utilizador;
-   * VerificaÃ§Ã£o da disponibilidade do livro;
-   * AtualizaÃ§Ã£o da quantidade disponÃ­vel;
-   * Registo do emprÃ©stimo.
+* Verificação da existência do livro;
+* Verificação da existência do utilizador;
+* Verificação da disponibilidade do livro;
+* Atualização da quantidade disponível;
+* Registo do empréstimo.
 
-7. **Efetuar DevoluÃ§Ã£o**
+### 3.7 Efetuar Devolução
 
-   * LocalizaÃ§Ã£o do emprÃ©stimo;
-   * AtualizaÃ§Ã£o do estado do emprÃ©stimo;
-   * ReposiÃ§Ã£o da quantidade disponÃ­vel.
+* Localização do empréstimo;
+* Atualização do estado do empréstimo;
+* Reposição da quantidade disponível.
 
-8. **HistÃ³rico de EmprÃ©stimos**
+### 3.8 Histórico de Empréstimos
 
-   * Consulta dos emprÃ©stimos realizados;
-   * IdentificaÃ§Ã£o do livro;
-   * IdentificaÃ§Ã£o do utilizador;
-   * Estado do emprÃ©stimo.
+* Consulta dos empréstimos realizados;
+* Identificação do livro;
+* Identificação do utilizador;
+* Estado do empréstimo.
 
-9. **EstatÃ­sticas**
+### 3.9 Estatísticas
 
-   * NÃºmero total de livros;
-   * NÃºmero total de utilizadores;
-   * NÃºmero total de emprÃ©stimos;
-   * Livro mais emprestado.
+* Número total de livros;
+* Número total de utilizadores;
+* Número total de empréstimos;
+* Livro mais emprestado.
 
 ---
 
 ## 4. Tecnologias Utilizadas
 
-* **Java**
-* **JDK 21**
-* **Visual Studio Code**
-* **Git**
-* **GitHub**
+* Java
+* JDK 21
+* Visual Studio Code
+* Git
+* GitHub
 
-O sistema nÃ£o utiliza uma base de dados externa. As informaÃ§Ãµes sÃ£o armazenadas temporariamente em memÃ³ria utilizando arrays, conforme solicitado no enunciado do trabalho.
+O sistema não utiliza uma base de dados externa. As informações são armazenadas temporariamente em memória utilizando arrays, conforme solicitado no enunciado do trabalho.
 
 ---
 
@@ -111,68 +111,68 @@ O sistema nÃ£o utiliza uma base de dados externa. As informaÃ§Ãµes sÃ£o 
 
 ```text
 BIBLIOTECA JAVA/
-â”‚
-â”œâ”€â”€ src/
-â”‚   â”œâ”€â”€ Main.java
-â”‚   â”œâ”€â”€ Livro.java
-â”‚   â”œâ”€â”€ Utilizador.java
-â”‚   â”œâ”€â”€ Emprestimo.java
-â”‚   â””â”€â”€ Biblioteca.java
-â”‚
-â””â”€â”€ README.md
+│
+├── src/
+│   ├── Main.java
+│   ├── Livro.java
+│   ├── Utilizador.java
+│   ├── Emprestimo.java
+│   └── Biblioteca.java
+│
+└── README.md
 ```
 
-### DescriÃ§Ã£o das Classes
+### Descrição das Classes
 
-**Main.java**
+### Main.java
 
-Ã‰ a classe principal do sistema. ContÃ©m o mÃ©todo `main()` e apresenta o menu interativo atravÃ©s do qual o utilizador pode executar as diferentes funcionalidades.
+É a classe principal do sistema. Contém o método `main()` e apresenta o menu interativo através do qual o utilizador pode executar as diferentes funcionalidades.
 
-**Livro.java**
+### Livro.java
 
-Representa um livro da biblioteca. Armazena informaÃ§Ãµes como ID, tÃ­tulo, autor, ano de publicaÃ§Ã£o, quantidade disponÃ­vel e nÃºmero total de emprÃ©stimos.
+Representa um livro da biblioteca. Armazena informações como ID, título, autor, ano de publicação, quantidade disponível e número total de empréstimos.
 
-**Utilizador.java**
+### Utilizador.java
 
 Representa um utilizador registado na biblioteca, armazenando o seu identificador e nome.
 
-**Emprestimo.java**
+### Emprestimo.java
 
-Representa uma operaÃ§Ã£o de emprÃ©stimo, relacionando um livro a um utilizador e mantendo o estado da operaÃ§Ã£o, ou seja, se o livro jÃ¡ foi devolvido ou continua emprestado.
+Representa uma operação de empréstimo, relacionando um livro a um utilizador e mantendo o estado da operação, ou seja, se o livro já foi devolvido ou continua emprestado.
 
-**Biblioteca.java**
+### Biblioteca.java
 
-Ã‰ responsÃ¡vel pela gestÃ£o principal dos dados da biblioteca, incluindo livros, utilizadores e emprÃ©stimos.
+É responsável pela gestão principal dos dados da biblioteca, incluindo livros, utilizadores e empréstimos.
 
 ---
 
 ## 6. Requisitos
 
-Para executar o projeto Ã© necessÃ¡rio ter instalado:
+Para executar o projeto é necessário ter instalado:
 
 * Java Development Kit (JDK) 21 ou superior;
-* Visual Studio Code ou outro editor/IDE compatÃ­vel com Java;
-* Git, caso pretenda clonar ou enviar o projeto para um repositÃ³rio GitHub.
+* Visual Studio Code ou outro editor/IDE compatível com Java;
+* Git, caso pretenda clonar ou enviar o projeto para um repositório GitHub.
 
 ---
 
 ## 7. Como Executar o Projeto
 
-### 1. Clonar o repositÃ³rio
+### 7.1 Clonar o Repositório
 
-Depois de o projeto estar disponÃ­vel no GitHub, execute:
+Depois de o projeto estar disponível no GitHub, execute:
 
 ```bash
 git clone https://github.com/VicenteF31/biblioteca-java-.git
 ```
 
-### 2. Entrar na pasta do projeto
+### 7.2 Entrar na Pasta do Projeto
 
 ```bash
 cd "BIBLIOTECA JAVA"
 ```
 
-### 3. Compilar o projeto
+### 7.3 Compilar o Projeto
 
 No terminal, execute:
 
@@ -180,7 +180,7 @@ No terminal, execute:
 javac -d bin src/*.java
 ```
 
-### 4. Executar o programa
+### 7.4 Executar o Programa
 
 ```bash
 java -cp bin Main
@@ -188,101 +188,100 @@ java -cp bin Main
 
 ---
 
-## 8. ExecuÃ§Ã£o no Visual Studio Code
+## 8. Execução no Visual Studio Code
 
-TambÃ©m Ã© possÃ­vel executar o projeto diretamente atravÃ©s do Visual Studio Code.
+Também é possível executar o projeto diretamente através do Visual Studio Code.
 
 Abra a pasta do projeto no VS Code e, dentro da pasta `src`, abra o ficheiro `Main.java`.
 
-Depois, utilize a opÃ§Ã£o **Run Java** disponibilizada pela extensÃ£o de Java do Visual Studio Code.
+Depois, utilize a opção "Run Java" disponibilizada pela extensão de Java do Visual Studio Code.
 
 ---
 
-## 9. Exemplo de UtilizaÃ§Ã£o
+## 9. Exemplo de Utilização
 
-Ao iniciar o programa, serÃ¡ apresentado um menu semelhante a:
+Ao iniciar o programa, será apresentado um menu semelhante a:
 
 ```text
-â•”â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•—
-â•‘        SISTEMA DE BIBLIOTECA          â•‘
-â• â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•£
-â•‘ 1. Registar Livro                     â•‘
-â•‘ 2. Consultar CatÃ¡logo                 â•‘
-â•‘ 3. Pesquisar Livro                    â•‘
-â•‘ 4. Registar Utilizador                â•‘
-â•‘ 5. Listar Utilizadores                â•‘
-â•‘ 6. Efetuar EmprÃ©stimo                 â•‘
-â•‘ 7. Efetuar DevoluÃ§Ã£o                  â•‘
-â•‘ 8. HistÃ³rico de EmprÃ©stimos           â•‘
-â•‘ 9. EstatÃ­sticas                       â•‘
-â•‘ 0. Sair                               â•‘
-â•šâ•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
++----------------------------------------+
+|        SISTEMA DE BIBLIOTECA           |
+|----------------------------------------|
+| 1. Registar Livro                      |
+| 2. Consultar Catálogo                  |
+| 3. Pesquisar Livro                     |
+| 4. Registar Utilizador                 |
+| 5. Listar Utilizadores                 |
+| 6. Efetuar Empréstimo                  |
+| 7. Efetuar Devolução                   |
+| 8. Histórico de Empréstimos            |
+| 9. Estatísticas                        |
+| 0. Sair                                |
++----------------------------------------+
 ```
 
-O utilizador pode selecionar uma opÃ§Ã£o e seguir as instruÃ§Ãµes apresentadas no terminal.
+O utilizador pode selecionar uma opção e seguir as instruções apresentadas no terminal.
 
 ---
 
-## 10. ValidaÃ§Ãµes Implementadas
+## 10. Validações Implementadas
 
-O sistema possui mecanismos de validaÃ§Ã£o para melhorar a fiabilidade das operaÃ§Ãµes, incluindo:
+O sistema possui mecanismos de validação para melhorar a fiabilidade das operações, incluindo:
 
 * Impedimento de IDs de livros duplicados;
 * Impedimento de IDs de utilizadores duplicados;
-* VerificaÃ§Ã£o de IDs maiores que zero;
-* VerificaÃ§Ã£o de quantidade de livros maior que zero;
-* ValidaÃ§Ã£o do ano de publicaÃ§Ã£o;
+* Verificação de IDs maiores que zero;
+* Verificação de quantidade de livros maior que zero;
+* Validação do ano de publicação;
 * Impedimento de campos de texto vazios;
-* VerificaÃ§Ã£o da existÃªncia do livro antes de realizar operaÃ§Ãµes;
-* VerificaÃ§Ã£o da existÃªncia do utilizador;
-* VerificaÃ§Ã£o da disponibilidade de exemplares;
-* VerificaÃ§Ã£o de emprÃ©stimos ativos antes de realizar uma devoluÃ§Ã£o;
-* Tratamento de entradas numÃ©ricas invÃ¡lidas.
+* Verificação da existência do livro antes de realizar operações;
+* Verificação da existência do utilizador;
+* Verificação da disponibilidade de exemplares;
+* Verificação de empréstimos ativos antes de realizar uma devolução;
+* Tratamento de entradas numéricas inválidas.
 
 ---
 
 ## 11. Armazenamento dos Dados
 
-Os dados do sistema sÃ£o armazenados temporariamente em memÃ³ria atravÃ©s de arrays.
+Os dados do sistema são armazenados temporariamente em memória através de arrays.
 
-SÃ£o utilizados arrays para armazenar:
+São utilizados arrays para armazenar:
 
 * Livros;
 * Utilizadores;
-* EmprÃ©stimos.
+* Empréstimos.
 
-Como nÃ£o existe uma base de dados externa, os dados sÃ£o perdidos quando o programa Ã© encerrado. Esta abordagem foi adotada porque o enunciado solicita uma base de dados simulada em memÃ³ria.
+Como não existe uma base de dados externa, os dados são perdidos quando o programa é encerrado. Esta abordagem foi adotada porque o enunciado solicita uma base de dados simulada em memória.
 
 ---
 
 ## 12. Estado do Projeto
 
-O sistema encontra-se funcional e implementa as principais operaÃ§Ãµes solicitadas no enunciado:
+O sistema encontra-se funcional e implementa as principais operações solicitadas no enunciado:
 
 * [x] Registo de livros
-* [x] Consulta do catÃ¡logo
-* [x] Pesquisa por tÃ­tulo
+* [x] Consulta do catálogo
+* [x] Pesquisa por título
 * [x] Pesquisa por autor
 * [x] Registo de utilizadores
-* [x] EmprÃ©stimo de livros
-* [x] DevoluÃ§Ã£o de livros
-* [x] HistÃ³rico de emprÃ©stimos
-* [x] EstatÃ­sticas
-* [x] ValidaÃ§Ã£o de dados
+* [x] Empréstimo de livros
+* [x] Devolução de livros
+* [x] Histórico de empréstimos
+* [x] Estatísticas
+* [x] Validação de dados
 
 ---
 
 ## 13. Autor
 
-** Ivanio Abubacar **
+Ivanio Abubacar
 
-Projeto acadÃ©mico desenvolvido para a Cadeira de  IntroduÃ§Ã£o a Algoritmos e ProgramaÃ§Ã£o 
+Projeto académico desenvolvido para a cadeira de Introdução a Algoritmos e Programação.
 
 ---
 
-## 14. RepositÃ³rio
+## 14. Repositório
 
-O cÃ³digo-fonte completo do projeto estÃ¡ disponÃ­vel publicamente no GitHub:
+O código-fonte completo do projeto está disponível publicamente no GitHub:
 
-**Link:** [https://github.com/VicenteF31/biblioteca-java-.git]
-
+Link: https://github.com/VicenteF31/biblioteca-java-.git
